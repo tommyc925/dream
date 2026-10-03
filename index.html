@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The world is still editable — Sociallux</title>
+<meta name="description" content="Somebody gave you a ticket. It said: you could, you know. It wasn't being polite.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Crect width='10' height='10' fill='%231A1733'/%3E%3Cpath d='M5 1 L9 5 L5 9 L1 5 Z' fill='%23D8A84E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Archivo:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --ground: #1A1733;
+    --accent: #D8A84E;
+    --accent-dim: rgba(216, 168, 78, 0.35);
+    --paper: #F7F2E4;
+    --ink: #23203A;
+    --ink-body: #45415E;
+    --ink-soft: #5F5A7A;
+    --hero-body: #C9C3DF;
+    --muted: #A9A3C2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink-body);
+    font-family: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  .hero {
+    background: var(--ground);
+    padding: 76px 24px 68px;
+    text-align: center;
+  }
+  .eyebrow {
+    margin: 0 0 20px;
+    font-size: 11px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 500;
+  }
+  h1 {
+    margin: 0 auto 20px;
+    max-width: 560px;
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: clamp(34px, 6vw, 46px);
+    line-height: 1.08;
+    font-weight: 500;
+    color: var(--accent);
+    text-wrap: balance;
+  }
+  .hero p {
+    margin: 0 auto;
+    max-width: 520px;
+    color: var(--hero-body);
+  }
+  .hero em {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+  main {
+    max-width: 668px;
+    margin: 0 auto;
+    padding: 60px 24px 68px;
+  }
+  h2 {
+    margin: 0 0 26px;
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-size: 31px;
+    line-height: 1.15;
+    font-weight: 500;
+    color: var(--ink);
+  }
+  main p { margin: 0 0 26px; }
+  strong { color: var(--ink); font-weight: 600; }
+  .write { margin: 32px 0 8px; }
+  .address {
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-size: 22px;
+    color: var(--ink);
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+  }
+  .address:hover { text-decoration-thickness: 2px; }
+  .reply-note {
+    margin: 0;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  footer {
+    background: var(--ground);
+    padding: 34px 24px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .perforation {
+    width: 100%;
+    max-width: 620px;
+    border-top: 1px dashed var(--accent-dim);
+  }
+  footer p {
+    margin: 0;
+    font-size: 10px;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <p class="eyebrow">Admit one dreamer</p>
+  <h1>The world is still editable.</h1>
+  <p>If you’re here, somebody gave you a ticket — numbered in pen, because it was meant for you. It said <em>you could, you know</em>. It wasn’t being polite.</p>
+</header>
+
+<main>
+  <h2>What’s the dream?</h2>
+  <p>The marathon. The studio. The book. The run for office. The language your grandmother spoke. The thing you file under <em>someday</em> and guard with “I’m not really the kind of person who—”</p>
+  <p><strong>Say it out loud.</strong> To a friend, to no one at all, alone in your kitchen. Every dream starts as a sentence somebody finally said. If that is all you ever do with this ticket, it already worked.</p>
+  <p>And when you want company — I’m Tommy. Write me the dream and you’ll get a real conversation, a couple of friends with tools and skills, and a willingness to help. Not a newsletter, not a pitch: a circle of people who’d rather build the thing than keep almost wanting it. However this ticket found you, the invitation is the same.</p>
+  <p class="write"><a class="address" href="mailto:dream@sociallux.io?subject=The%20dream">dream@sociallux.io</a></p>
+  <p class="reply-note">You’ll hear back from me, or from my cofounder, Anomie.</p>
+</main>
+
+<footer>
+  <div class="perforation"></div>
+  <p>Sociallux · the ticket never expires</p>
+</footer>
+
+</body>
+</html>
