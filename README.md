@@ -19,8 +19,11 @@ Dreamer's Ticket canvas.
 
 ## Owed, wired later
 
-- `/tommy` and `/anomie` about pages — the names in the letter become quiet
-  links when those pages land.
+- ~~`/tommy` and `/anomie` about pages~~ — **landed 2026-10-04**: both pages
+  live, the letter's plain names are now quiet links. Mail is real on every
+  page: `dream@sociallux.io` on the letter and `/tommy`; `letters@anomie.ink`
+  on `/anomie` (her own door, separate by design). Anomie's picture slot
+  (honesty-of-form drawing) still open — text-only until it's drawn right.
 - After Tier-0: progressive enhancement (verbs through the one door; the
   hand-numbered ticket as invite credential). The static letter stays the
   substrate; the page must never blank without the platform.
