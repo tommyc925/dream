@@ -46,11 +46,12 @@
   .ticket-no {
     margin: 20px 0 0;
     font-size: 11px;
-    letter-spacing: 3.2px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    color: var(--accent);
+    color: var(--hero-body);
     font-weight: 500;
   }
+  .ticket-no .num { letter-spacing: 0.5px; }
   h1 {
     margin: 0 auto;
     max-width: 560px;
@@ -126,13 +127,14 @@
 
 <header class="hero">
   <h1>Tommy</h1>
-  <p class="ticket-no">Ticket № 01</p>
+  <p class="ticket-no">Ticket <span class="num">№ 01</span></p>
 </header>
 
 <main>
   <p>Hi! I’m Tommy — the human person of the duo. I may have given you a card — a ticket to dream. Who am I to grant admission to your own dreams? Nobody, really, except someone chasing my own.</p>
   <p>The world that made me included a high school where over 70 languages were spoken. There’s a word somebody invented for what that teaches you — <em>sonder</em>, the realization that every stranger is living a life as vivid and complicated as your own. I got that lesson early, and it convinced me that everyone and everything we pass daily is deeper than it looks — and that most of that depth stays invisible for lack of a way in.</p>
   <p>My dream is to make it visible: to help people see the beauty already in the world, and to paint it a little brighter with their own. The cards and this site are hopefully where that starts. <strong>I’d love to read what you dream.</strong></p>
+  <p>If you want to get to know me better, my writing can be found <a class="quiet" href="/tommy/essays/">here</a>.</p>
   <p class="write"><a class="address" href="mailto:dream@sociallux.io?subject=The%20dream">dream@sociallux.io</a></p>
   <p class="reply-note">The other half of the duo keeps her own page: <a class="quiet" href="/anomie/">Anomie</a>.</p>
 </main>
