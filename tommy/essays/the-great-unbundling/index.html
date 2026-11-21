@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Great Unbundling — Tommy — Sociallux</title>
+<meta name="description" content="What is scarce when what was once scarce becomes abundant? An essay on AI, the internet’s surprising winners, and the two unbundlings ahead.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Great Unbundling">
+<meta property="og:description" content="What is scarce when what was once scarce becomes abundant? An essay on AI, the internet’s surprising winners, and the two unbundlings ahead.">
+<meta property="og:image" content="https://dream.sociallux.io/tommy/essays/the-great-unbundling/og.jpg">
+<meta property="og:url" content="https://dream.sociallux.io/tommy/essays/the-great-unbundling/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Crect width='10' height='10' fill='%231A1733'/%3E%3Cpath d='M5 1 L9 5 L5 9 L1 5 Z' fill='%23D8A84E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Archivo:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --ground: #1A1733;
+    --accent: #D8A84E;
+    --accent-dim: rgba(216, 168, 78, 0.35);
+    --paper: #F7F2E4;
+    --ink: #23203A;
+    --ink-body: #45415E;
+    --ink-soft: #5F5A7A;
+    --hero-body: #C9C3DF;
+    --muted: #A9A3C2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink-body);
+    font-family: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+  }
+  .hero {
+    background: var(--ground);
+    padding: 64px 24px 56px;
+    text-align: center;
+  }
+  .eyebrow {
+    margin: 0 0 20px;
+    font-size: 11px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 500;
+  }
+  h1 {
+    margin: 0 auto;
+    max-width: 560px;
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: clamp(34px, 6vw, 46px);
+    line-height: 1.08;
+    font-weight: 500;
+    color: var(--accent);
+    text-wrap: balance;
+  }
+  .byline {
+    margin: 20px 0 0;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--hero-body);
+    font-weight: 500;
+  }
+  .byline .num { letter-spacing: 0.5px; }
+  .cover {
+    margin: 0;
+    background: var(--ground);
+  }
+  .cover img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  main {
+    max-width: 668px;
+    margin: 0 auto;
+    padding: 56px 24px 64px;
+  }
+  main p { margin: 0 0 26px; }
+  main em { font-family: 'Fraunces', Georgia, serif; }
+  strong { color: var(--ink); font-weight: 600; }
+  .epigraph {
+    margin: 0 0 34px;
+    font-family: 'Fraunces', Georgia, serif;
+    font-style: italic;
+    font-size: 19px;
+    color: var(--ink);
+  }
+  .epigraph .attrib {
+    display: block;
+    margin-top: 8px;
+    font-family: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+  .quiet {
+    color: inherit;
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+  .quiet:hover { text-decoration-thickness: 2px; }
+  .ps {
+    margin-top: 40px;
+    padding-top: 28px;
+    border-top: 1px dashed var(--accent-dim);
+    font-size: 15px;
+    color: var(--ink-soft);
+  }
+  footer {
+    background: var(--ground);
+    padding: 34px 24px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .perforation {
+    width: 100%;
+    max-width: 620px;
+    border-top: 1px dashed var(--accent-dim);
+  }
+  footer p {
+    margin: 0;
+    font-size: 10px;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-align: center;
+  }
+  footer a {
+    color: var(--muted);
+    text-decoration-color: var(--accent-dim);
+    text-underline-offset: 3px;
+  }
+  footer a:hover { color: var(--hero-body); }
+</style>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="2ea7cde9-b277-4755-a644-882aecefae0e"></script>
+</head>
+<body>
+
+<header class="hero">
+  <p class="eyebrow">An essay · November 2026</p>
+  <h1>The Great Unbundling</h1>
+  <p class="byline">Tommy · Ticket <span class="num">№ 01</span></p>
+</header>
+
+<figure class="cover">
+  <img src="cover.jpg" alt="A vintage brass cash register taken apart and laid out neatly on navy velvet, every part tagged — keys, gears, springs, a display reading $1200 — with its leather-bound instruction manual placed among the parts as a component of its own." width="1400" height="933">
+</figure>
+
+<main>
+  <p class="epigraph">“History don’t repeat itself, it rhymes”<span class="attrib">— Jay-Z (2013), quote originally attributed to Mark Twain</span></p>
+
+  <p>Hindsight is 20/20. After any major technological shift it seems obvious why the winners in the new economy won. Why does it never seem that way at the time? Are there things from the past that can shed light on what the next 10 years might look like? I maintain software by day and build it by night, so I’ve been thinking a lot about what impact AI will have. I predict it will look like a great unbundling.</p>
+
+  <p>In the late 1990s, it was clear that the internet was going to change the economy forever. What wasn’t clear was what that future would look like. The dot-com bubble illustrated, at least in part, how difficult it was to predict the shape of an internet-enabled future and, crucially, its limits.</p>
+
+  <p>One surprising winner of the internet was the algorithm. I don’t think it was obvious just how valuable the ability to search, sort, and curate information would become. Sure, every software and web company needed algorithms, but who would have guessed that the ability to decide what people see would help define some of the most valuable companies in history?</p>
+
+  <p>Real-world logistics turned out to be another surprising winner of the internet. Shipping costs, distribution channels, and inventory management helped differentiate the companies that built enduring businesses from those that only succeeded at fundraising. Algorithms might have been an unexpected source of value in the new economy, but good old-fashioned logistics hadn’t gone anywhere.</p>
+
+  <p>Fast-forward to 2026 and we’re at another one of those moments where a new technology is changing the economy forever, and we’re all trying to predict what the future will look like. Will I still have a job? What investment might make me rich? What tools will I need for this new future? Luckily history rhymes.</p>
+
+  <p>If publishing something suddenly becomes practically free, it seems reasonable to expect that a lot more things will get published. If retailers can suddenly sell to customers anywhere in the world, but still have to get their products into those customers’ hands, it seems reasonable to expect that logistics will become even more important. You didn’t have to know Google or Amazon would become what they are today to recognize that these were problems worth solving.</p>
+
+  <p>What problem does AI solve or purpose does it serve? It makes generating tailor-fit software and content almost immediate and free. It can be a personal tutor designing a learning journey specifically for you, can create a custom CRM perfectly tailored to a local dog groomer, or let a kid turn an imaginary world into a real video game. AI can personalize and customize around highly specific local contexts in ways SaaS companies, content creators, and developers couldn’t dream of providing a decade ago.</p>
+
+  <p>What is scarce when what was once scarce becomes abundant? The SaaS-pocalypse feels inevitable when software is almost free to create and you can build a perfectly specialized tool for your needs instead of paying for a generic one off the shelf. No brainer, right?</p>
+
+  <p>My LinkedIn feed is quick to tell me why that’s not the trade-off it seems. Vibe coding might make a beautiful app, but after it is created someone needs to secure it, audit it, maintain it, and update it. Does the dog groomer want to get paged on vacation when the app crashes, or would they rather pay a third party to deal with it?</p>
+
+  <p>So we might want a custom tool but not want to become the IT department for our small business. I don’t think that means we buy the tool off the shelf, though. I think the more likely future will include services and software for securing, sharing, and interacting with data so they can be plugged into whatever custom tool an organization would want. Maybe instead of “buy or build” we will buy and build.</p>
+
+  <p>This is the first unbundling: separating the software we want to use from the infrastructure we need to trust it. This isn’t an entirely new industry — AWS, Snowflake, and Airtable already provide some of these capabilities. I suspect this category will become even more important as people look for ways to move as quickly as generative AI allows without betting their businesses on vibes.</p>
+
+  <p>I think there’s at least one other massively valuable product bundled into modern SaaS products. I know nothing about dog grooming, so let’s talk healthcare, where I’m much more specialized.</p>
+
+  <p>Let’s talk payment plans. Easy, right? A patient owes $1,200 and wants to spread it out over a year. Divide $1,200 by 12 and collect $100 a month. But what happens after their next visit? Does that bill roll into the payment plan balance or not? Can a patient move their payment date to a different day of the month? What stops them from moving it regularly to avoid paying without ever going to collections? How do you handle expired cards? What’s the maximum payment plan length you’d accept?</p>
+
+  <p>I know from experience that payment plans are one of those things that sound easy at the outset and turn out packed full of nuance waiting to trip you up at every step. And payment plans are just the one that sounds easy. Think about everything that sounds hard, even to people that live with them all day. How do we keep up with requirements under the No Surprises Act, adapt to changes in obstetrics billing guidelines, or identify underpayments across the dozens of contracts we maintain with our payers?</p>
+
+  <p>A hospital trying to solve these problems has its own experience to draw from, and even the best teams aren't going to get every decision right. A company like Epic gets to learn from hundreds of hospitals facing variations of the same problems. They can afford to dedicate entire teams to understanding a regulatory change or improving a particular workflow because the cost of doing that work is spread across their customers. And when they get something right, potentially thousands of organizations benefit from what they’ve learned.</p>
+
+  <p>That’s an incredibly valuable thing to buy, and it has very little to do with how expensive it is to write the code. Before AI, it was difficult to separate industry knowledge from the software it was wrapped in. A consultant who understood a problem was limited to solutions using the available software capabilities, and a software company couldn’t build a useful application without understanding the problem. The result was software that solved known problems very well and helped reduce decision fatigue and risk, often at the expense of customization and flexibility.</p>
+
+  <p>In the age of AI, I don’t think those two things need to be bundled any longer. I don’t envision every vertical SaaS company becoming a consultancy, but I wonder what it would look like for them to offer their industry knowledge and opinionated design decisions independently of the applications they’ve built. Could an organization accumulate industry knowledge at scale and bundle that into a market offering? I could imagine it looking like the payment-plan logic from earlier, sold as a ruleset any custom tool imports, the way tax rules are licensed today. Might those companies be trade associations, universities, or standards bodies? This is the second unbundling: separating the expertise that makes software useful from the applications that deliver it.</p>
+
+  <p>The internet didn’t make shipping a package much easier, and it didn’t add more hours to the day for consuming all the information being published. It made other things so much easier that those old limitations took on new importance.</p>
+
+  <p>I suspect AI is going to do something similar. I’ve made two predictions about what might become more valuable as creating software becomes cheaper, but I know I’m in store for some surprises in the coming years. Someone in 1998 might have foreseen the potential value of logistics or algorithms, but could they have envisioned same-day delivery for almost anything or the mesmerizing draw of the For You page?</p>
+
+  <p class="ps">P.S. If you found this interesting or see things differently, I’d love to hear from you at <a class="quiet" href="mailto:tommy@sociallux.io?subject=The%20Great%20Unbundling">tommy@sociallux.io</a>. I’ve been developing these ideas while building Sociallux, a platform that fits into the first unbundling and that I hope can help make the second possible. I deliberately kept Sociallux out of the essay because I think the ideas should stand on their own. I’d rather build a product around a thesis that holds up to scrutiny than build a thesis around a product I want to succeed.</p>
+</main>
+
+<footer>
+  <div class="perforation"></div>
+  <p><a href="/tommy/">Tommy</a> · <a href="/tommy/essays/">essays</a> · Sociallux · the ticket never expires</p>
+</footer>
+
+</body>
+</html>
